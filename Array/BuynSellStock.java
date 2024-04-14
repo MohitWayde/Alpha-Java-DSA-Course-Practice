@@ -20,8 +20,9 @@ public class BuynSellStock {
 		return maxProfit;
 	}
 	public static void main(String[] args) {
-		int stockPrices[] = {7,1,5,3,6,4};
+		// int stockPrices[] = {7,1,5,3,6,4};
 		// int stockPrices[] = {1,7,5,3,6,4};
+		int stockPrices[] = {7, 6, 4,  3, 1};
 		System.out.println("The Highest profit is "+calculateHighestProfit(stockPrices));
 	}
 }

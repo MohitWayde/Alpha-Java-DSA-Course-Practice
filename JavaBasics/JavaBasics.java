@@ -1,33 +1,34 @@
+package JavaBasics;
 // 23 June 2023 - Writeaprogramthatreadsasetofintegers,andthenprintsthesumoftheeven and odd integers
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class JavaBasics {
-// 	public static void main(String[] args) {
-// 		Scanner sc = new Scanner(System.in);
-// 		int evenSum = 0;
-// 		int oddSum = 0;
+public class JavaBasics {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int evenSum = 0;
+		int oddSum = 0;
 
-// 		int choice;
-// 		do {
-// 			System.out.println("Enter the number");
-// 			int number = sc.nextInt();
+		int choice;
+		do {
+			System.out.println("Enter the number");
+			int number = sc.nextInt();
 
-// 			if(number % 2 == 0){
-// 				evenSum+=number;//evenSum = evenSum+number;
-// 			}
-// 			else{
-// 				oddSum+=number;//evenSum = evenSum+number;
-// 			}
-// 			System.out.println("Press 1 For continue & Press 0 For exit");
-// 			choice = sc.nextInt();
+			if(number % 2 == 0){
+				evenSum+=number;//evenSum = evenSum+number;
+			}
+			else{
+				oddSum+=number;//evenSum = evenSum+number;
+			}
+			System.out.println("Press 1 For continue & Press 0 For exit");
+			choice = sc.nextInt();
 
-// 		} while (choice == 1);
+		} while (choice == 1);
 
-// 		System.out.println("Even number sum is "+evenSum);
-// 		System.out.println("Odd number sum is "+oddSum);
+		System.out.println("Even number sum is "+evenSum);
+		System.out.println("Odd number sum is "+oddSum);
 
-// 	}
-// }
+	}
+}
 
 // 24 June 2023 - factorial of number
 // import java.util.Scanner;
